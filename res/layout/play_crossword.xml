@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/cross_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/newgame_btn"
+        android:background="@drawable/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/new_game" />
+
+    <Button
+        android:id="@+id/loadgame_btn"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/load_game" />
+
+    <Button
+        android:id="@+id/catg_btn"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/select_catg" />
+    
+    <Button
+        android:id="@+id/difflevel_btn"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/diff_level" />
+
+    <Button
+        android:id="@+id/stats_btn"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/stats" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/back" />
+
+</LinearLayout>
+

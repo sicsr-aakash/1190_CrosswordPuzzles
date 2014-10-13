@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/bg_col"
+    tools:context="com.example.crosswordpuzzles.SolveWordPuzzle$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/quest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sol"
+        android:layout_alignBottom="@+id/sol"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="Enter answer" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/sol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/quest"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="46dp"
+        android:text="Solution:" />
+
+    <Button
+        android:id="@+id/backmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/quest"
+        android:layout_below="@+id/check"
+        android:layout_marginTop="24dp"
+        android:text="Main Menu" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/check"
+        android:layout_alignBottom="@+id/check"
+        android:layout_alignLeft="@+id/quest"
+        android:layout_marginLeft="24dp"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ans"
+        android:layout_marginTop="49dp"
+        android:layout_toLeftOf="@+id/next"
+        android:text="Check" />
+
+</RelativeLayout>

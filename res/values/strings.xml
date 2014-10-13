@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Crosswords N Puzzles</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_game">New Game</string>
+    <string name="load_game">Load Game</string>
+    <string name="diff_level">Select Difficulty</string>
+    <string name="select_catg">Select Category</string>
+    <string name="stats">Statistics</string>
+    <string name="back">Back</string>
+    <string name="Find_num">Number Puzzles</string>
+    <string name="Guess_word">Word Puzzles</string>
+    <string name="play_crossword">Play Crossword</string>
+    <string name="play_puzzle">Play Puzzles</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="audio">Audio</string>
+    <string name="chglang">Change Language</string>
+    <string name="chgpname">Change Player Name</string>
+    <string name="desc">Crossword Logo</string>
+    <string name="home">Home Logo</string>
+    <string name="caption">CROSSWORD</string>
+    <string name="about">About</string>
+    <string name="title_activity_play_cross">PlayCrossActivity</string>
+    <string name="title_activity_play_puzzles_">Play_puzzles_Activity</string>
+    <string name="title_activity_settings_">Settings_Activity</string>
+    <string name="clue_no1">1</string>
+    <string name="clue_no2">2</string>
+    <string name="clue_no3">3</string>
+    <string name="clue_no4">4</string>
+    <string name="clue_no5">5</string>
+    <string name="clue_no6">6</string>
+    <string name="reveal">Reveal</string>
+    <string name="reveal_letter">Reveal Letter</string>
+    <string name="reveal_word">Reveal Word</string>
+    <string name="reveal_puz">Reveal Whole Puzzle</string>
+    <string name="check_letter">Check Letter</string>
+    <string name="check_word">Check Word</string>
+    <string name="check_list">Check List</string>
+    <string name="check_puz">Check Whole Puzzle</string>
+    <string name="clear_puz">Clear Whole Puzzle</string>
+    <string name="show_hint">Show Hint</string>
+    <string name="clue_list">Clue List</string>
+    <string name="disp_title">Load Game</string>
+    <string name="clue_no">"  "</string>
+    <string name="save">Save Game</string>
+    <string name="clue_type1">Across</string>
+    <string name="clue_1a">1.	Distress Letters (3)</string>
+    <string name="clue_2a">2.	Yule Visitor (5)</string>
+    <string name="clue_5a">5.	Restoration of displaced bones or organs by manual pressure alone (5)</string>
+    <string name="clue_6a">6.	Fluid which circulates in the vascular system of a plant (3)</string>
+    <string name="clue_type2">Down</string>
+    <string name="clue_1d">1.	Legendary Stories (5)</string>
+    <string name="clue_2d">2.	Took a chair (3)</string>
+    <string name="clue_3d">3.	Remove all coverings from (5)</string>
+    <string name="clue_4d">4.	Braying Beast (3)</string>
+    <string name="quit">Quit</string>
+    <string name="quit_main">Quit to main menu</string>
+    <string name="back_main">Back</string>
+    <string name="play_name">Player Name</string>
+    <string name="play_score">Crosswords Completed</string>
+    <string name="name_val">Player</string>
+    <string name="score_val">0</string>
+    <string name="title_activity_crossui">Crossui</string>
+    <string name="title_activity_cluelist_activity_main">ClueListActivity</string>
+    <string name="title_activity_list_saved_games">ListSavedGamesActivity</string>
+    <string name="title_activity_statistics">StatisticsActivity</string>
+    <string name="title_activity_sound">SoundActivity</string>
+    <string name="app_help">Crossword Puzzles Help</string>
+    <string name="about_game">Fill in the grid using the clues given in the \'Clue List\'. The 
+	\'Clue List\' is located in the menu on the top-right corner of the screen, when you begin a
+	new game. The \'Clue List\' displays the list of Across and Down clues. Press \'Back\' to get back 
+	to the main crossword grid. </string>
+    <string name="about_game1">Use \'Check List\' to find out how you are progressing. It also helps
+	you find out where you have gone wrong.</string>
+    <string name="about_game2">If you are really stuck - use \'Reveal Letter\' or \'Reveal Word\'
+	If you have gnashed mightily and have submitted to your frustration, then click on \'Reveal
+	Whole Puzzle\'. Just to make it more competitive, the points system is included. For every
+	\'Reveal\' option used, you will lose points accordingly(-1 for \'Reveal Letter\', -5 for \'Reveal Word\'
+	and if you use \'Reveal Whole puzzle\' option, your points would become zero). Just remember, we
+	are not out there to make it easy for you guys!</string>
+    <string name="about_game3">You can also use the \'Show Hint\' option located in the menu, which displays
+	a hint(an adiitional clue) regarding the clue on which you are stuck. The total number of hints available
+	for a particular crossword depends upon the difficulty level selected. However, this would also result in
+	points deduction - you lose 1 point every time you use the \'Show Hint\' option.</string>
+    <string name="about_game4">\'Clear Puzzle\' in the menu clears the whole puzzle, so you can start 
+	afresh. Your points would be reset back to 0 and hints would be available for you to use.</string>
+    <string name="about_game5">You can also save your answers and points using the \'Save Game\' option located
+	in the menu. You can then load your saved game from the \'Play Crossword\' menu to resume your previously
+	saved game.</string>
+    <string name="puz">We also have a number and word puzzle game where you will be provided with clues
+	and you have to guess the right number or word. You can use the \'Check\' option to check your answers.
+	No points system is included here. So just sit back, relax and play this game.</string>
+    <string name="about_game6">FAQs</string>
+    <string name="about_game7">Q: The clues are too easy. Why don\'t you make them harder?</string>
+    <string name="about_game8">If you were able to solve our \'Elite\' level crosswords, then well
+	you are a genius. You can then try the number/word puzzles.</string>
+    <string name="about_game9">Q: The crossword won\'t expand to full screen. Why is that so?</string>
+    <string name="about_game10">Well this unfortunately is a limitation of grid layout in
+	android. We hope to rectify this issue in our next release.</string>
+    <string name="about_game11">Q: I found a mistake. How do I let you know?</string>
+    <string name="about_game12">Yes, we do make mistakes, but we really appreciate being told, because it
+	improves the puzzles for the next release. You can mail us at abhi.iyer03@gmail.com and tell us about
+	any mistakes you found or any improvements you think should be made in the app.</string>
+    <string name="about_game13">This application was designed and developed by two MSC-CA students from 
+	SICSR, Pune. All the app data and design is their copyright and may not be used in any other product 
+	without their permission.</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="orange">#d62608</color>
+    <color name="transRed">#66FF0000</color>
+    <color name="Redshade">#ff1919</color>
+    <color name="skyblue">#00BFFF</color>
+	<color name="bg_col">#c0d6e4</color>
+	
+    <string name="title_activity_solve_word_puzzle">SolveWordPuzzle</string>
+    <string name="title_activity_solve_number_puzzle">SolveNumberPuzzle</string>
+
+</resources>

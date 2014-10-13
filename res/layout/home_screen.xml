@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/cross_bg"
+    android:orientation="vertical" >
+
+    <!--<TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="43sp"
+        android:layout_marginBottom="55sp"
+        android:typeface="sans"
+        android:text="@string/caption" />-->
+
+    <Button
+        android:id="@+id/playcross_btn"
+        android:layout_marginTop="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/play_crossword" />
+
+    <Button
+        android:id="@+id/playpuzzle_btn"
+        android:layout_marginTop="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/play_puzzle" />
+
+    <Button
+        android:id="@+id/settings_btn"
+        android:layout_marginTop="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/settings" />
+
+    <Button
+        android:id="@+id/exit_btn"
+        android:layout_marginTop="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/exit" />
+
+</LinearLayout>
+

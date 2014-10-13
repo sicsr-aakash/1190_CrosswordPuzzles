@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/cross_bg"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/chgpname_btn"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/chgpname" />
+    
+    <Button
+        android:id="@+id/backsettings_btn"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/back" />
+
+</LinearLayout>
+

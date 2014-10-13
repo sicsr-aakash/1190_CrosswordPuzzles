@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/cross_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/findnum_btn"
+        android:layout_marginTop="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/Find_num" />
+
+    <Button
+        android:id="@+id/guessword_btn"
+        android:layout_marginTop="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/Guess_word" />
+    
+    <Button
+        android:id="@+id/puzback_btn"
+        android:layout_marginTop="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:typeface="monospace"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/back" />
+
+</LinearLayout>

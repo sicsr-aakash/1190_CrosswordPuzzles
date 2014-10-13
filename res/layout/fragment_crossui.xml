@@ -1,0 +1,263 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="8"
+    android:orientation="horizontal"
+    android:rowCount="8"
+    android:layout_gravity="center"
+    android:background="@color/skyblue"
+    tools:context=".GridXMLActivity" >
+
+    <EditText
+        android:id="@+id/edit_black1"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="0"
+        android:background="@drawable/layout_back"
+        android:hint="@string/clue_no"
+        android:maxLength="0"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/a1"
+        android:layout_column="1"
+        android:layout_gravity="left|top"
+        android:layout_row="0"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no1"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/a1.1"
+        android:layout_column="3"
+        android:layout_gravity="left|top"
+        android:layout_row="0"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/a1.2"
+        android:layout_column="6"
+        android:layout_gravity="left|top"
+        android:layout_row="0"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no3"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit_black2"
+        android:layout_column="7"
+        android:layout_gravity="left|top"
+        android:layout_row="0"
+        android:background="@drawable/layout_back"
+        android:hint="@string/clue_no"
+        android:maxLength="0"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/a2"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="1"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no2"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/d1.1"
+        android:layout_column="1"
+        android:layout_gravity="left|top"
+        android:layout_row="1"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/a2.1"
+        android:layout_column="3"
+        android:layout_gravity="left|top"
+        android:layout_row="1"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/a2.2"
+        android:layout_column="6"
+        android:layout_gravity="left|top"
+        android:layout_row="1"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/a2.3"
+        android:layout_column="7"
+        android:layout_gravity="left|top"
+        android:layout_row="1"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no4"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/d2"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="2"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/d1.2"
+        android:layout_column="1"
+        android:layout_gravity="left|top"
+        android:layout_row="2"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit_black3"
+        android:layout_column="3"
+        android:layout_gravity="left|top"
+        android:layout_row="2"
+        android:background="@drawable/layout_back"
+        android:hint="@string/clue_no"
+        android:maxLength="0"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/d3"
+        android:layout_column="6"
+        android:layout_gravity="left|top"
+        android:layout_row="2"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/d4"
+        android:layout_column="7"
+        android:layout_gravity="left|top"
+        android:layout_row="2"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/d2.1"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="3"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no5"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/d1.3"
+        android:layout_column="1"
+        android:layout_gravity="left|top"
+        android:layout_row="3"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/a3"
+        android:layout_column="3"
+        android:layout_gravity="left|top"
+        android:layout_row="3"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/d3.1"
+        android:layout_column="6"
+        android:layout_gravity="left|top"
+        android:layout_row="3"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/d4.1"
+        android:layout_column="7"
+        android:layout_gravity="left|top"
+        android:layout_row="3"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit_black4"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="4"
+        android:background="@drawable/layout_back"
+        android:hint="@string/clue_no"
+        android:maxLength="0"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/d1.4"
+        android:layout_column="1"
+        android:layout_gravity="left|top"
+        android:layout_row="4"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no6"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/a4"
+        android:layout_column="3"
+        android:layout_gravity="left|top"
+        android:layout_row="4"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/d3.2"
+        android:layout_column="6"
+        android:layout_gravity="left|top"
+        android:layout_row="4"
+        android:background="@drawable/layout_border"
+        android:hint="@string/clue_no"
+        android:maxLength="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit_black5"
+        android:layout_column="7"
+        android:layout_gravity="left|top"
+        android:layout_row="4"
+        android:background="@drawable/layout_back"
+        android:maxLength="0"
+        android:hint="@string/clue_no"
+        android:textSize="16sp" />
+
+</GridLayout>
